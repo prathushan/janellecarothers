@@ -1,0 +1,17 @@
+/* aboutbook.css */
+.ab-cont {
+    display: flex;
+    justify-content: center;  /* Center align horizontally */
+    padding: 0 180px;  /* Add left and right padding */
+  }
+  
+  .ab-cont h3 {
+    font-family: 'GillSans', sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: rgb(68, 68, 68);
+    font-size: 20px;
+    line-height: 1.6;  /* Set line height to 1.4 */
+    text-align: justify;  /* Center align the text */
+  }
+  

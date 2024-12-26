@@ -87,3 +87,116 @@ ul li {
   text-align: center; /* Center-align text */
 }
 
+/*  */
+/*  */
+/*  */
+.ab-cont {
+  text-align: center; /* Center the content */
+  margin: 0 auto;
+  display:flex;
+  flex-direction: column;
+}
+
+.book-btn {
+  margin-top: 20px; /* Adds space between the title and the button */
+  display: flex;
+  justify-content: center; /* Center the button horizontally */
+  width: 100%; /* Ensures the button takes up full width */
+}
+
+.book-click-here-btn {
+  font-family: 'Biloxi', sans-serif;
+  font-weight: 300;
+  font-size: 60px;
+  line-height: 26px;
+  color: white;
+  background-color: black;
+  border: none;
+  border-radius: 30px;
+  padding: 20px 150px; /* 150px padding on left and right */
+  cursor: pointer;
+  text-align: center;
+  transition: background-color 0.3s ease;
+  display: block; /* Ensures button is displayed on a new line */
+  margin: 0 auto; /* Centers the button */
+}
+
+.book-click-here-btn:hover {
+  background-color: #333; /* Darken the background color when hovered */
+}
+
+/*  */
+/*  */
+/*  */
+/* Global style for full-page alignment */
+.gentle-page {
+  font-family: 'GillSans', sans-serif;
+  font-weight: 100; /* Default font weight for content */
+  margin: 0;
+  padding: 400px;
+  text-align: center; /* Ensures all content is center aligned */
+}
+
+/* Header styling */
+.main-heading {
+  font-family: 'GillSans', sans-serif;
+  font-size: 62px;
+  font-weight: 300;  /* Lighter font for header */
+  line-height: 1;
+  text-align: center; /* Center the main heading */
+  margin: 0; /* Ensure no extra margin */
+}
+
+/* Paragraph styling */
+.para {
+  align-items: center;
+  margin: 0 !important;  /* Remove any extra margin */
+  font-weight: 100;  /* Default weight for paragraphs */
+}
+
+/* Bold paragraph styling */
+.bold-para {
+  font-size: 22px;
+  font-weight: bold;
+  padding-bottom: 2px;
+  margin: 0 !important;  /* Remove extra margins */
+}
+
+/* Header within paragraph */
+.para-head {
+  font-weight: 100;  /* Default weight for paragraph headers */
+  margin: 0 !important;  /* No extra margins */
+  padding: 0;  /* Remove padding */
+}
+
+/* Paragraph item styling */
+.para-item {
+  font-weight: 100;  /* Light font weight for paragraph text */
+  line-height: 1.8;  /* Line height for readability */
+  text-align: center;  /* Center-align the paragraph items */
+}
+
+/* General p and pre tag adjustments */
+p, pre {
+  margin: 0 !important;  /* Ensure no margin on paragraphs and preformatted text */
+}
+
+/* Ensuring the container is full page and centered */
+.gentle-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;  /* Full viewport height */
+  text-align: center;
+}
+
+/* Optional: Ensure content within .container is centered */
+.container {
+  max-width: 1200px;
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+/* Additional custom styles can be added based on your needs */
