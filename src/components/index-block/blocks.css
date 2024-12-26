@@ -1,0 +1,68 @@
+@font-face {
+    font-family: 'Biloxi';
+    src: url('/src/asserts/fonts/BiloxiScript.woff') format('truetype'); 
+    font-weight: 400;
+    font-style: normal; 
+  }
+
+/* General styling for the containers */
+.block {
+  display: flex;
+  justify-content: space-between;
+  gap: 2px;
+  padding-left:350px;
+  padding-right:350px;
+  padding-top: 20px;
+  padding-bottom:20px;
+}
+
+.container1, .container2 {
+  position: relative;
+  width: 45%; 
+  height: 300px; 
+  overflow: hidden;
+}
+
+/* The image itself */
+.image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: all 0.3s ease; 
+}
+
+/* The text (initially hidden) */
+.text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 24px;
+  opacity: 0; 
+  transition: opacity 0.3s ease;
+  pointer-events: none; 
+}
+
+/* Hover effect for container1 */
+.container1:hover .image {
+  filter: brightness(0.7); 
+}
+
+.container1:hover .text {
+  opacity: 1; 
+  font-family: 'Biloxi', sans-serif; 
+  font-size:42px; 
+  background-color: none !important;
+}
+
+/* Hover effect for container2 */
+.container2:hover .image {
+  filter: brightness(0.7); 
+}
+
+.container2:hover .text {
+  opacity: 1; 
+  font-family: 'Biloxi', sans-serif; 
+  font-size:42px; 
+}

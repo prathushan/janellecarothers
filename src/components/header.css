@@ -1,0 +1,41 @@
+
+
+.header {
+    text-align: center;
+   
+}
+
+/* Apply the Biloxi font with the specified styles for h1 */
+@font-face {
+    font-family: 'Biloxi';
+    src: url('../asserts/fonts/BiloxiScript.woff') format('truetype'); 
+    font-weight: 400;
+    font-style: normal; 
+  }
+  
+  /* Styles for the custom h1 */
+  .h1-custom {
+    font-family: 'Biloxi', sans-serif; 
+    font-weight: 400; 
+    font-style: normal; 
+    color: rgb(68, 68, 68); 
+    font-size: 142px;
+    line-height: 12px; 
+  }
+
+/* Apply the GillSans font with the specified styles for h3 */
+@font-face {
+    font-family: 'GillSans';
+    src: url('../asserts/fonts/GillSans-Light.otf') format('truetype'); 
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .h3-custom {
+    font-family: 'GillSans', sans-serif; 
+    font-weight: 300; 
+    font-style: normal; 
+    color: rgb(125, 125, 125); 
+    font-size: 30px;
+    line-height: 30px; 
+  }

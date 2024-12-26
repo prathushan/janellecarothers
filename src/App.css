@@ -1,0 +1,89 @@
+/* Apply a flexbox to center the content */
+
+.resume-page-container {
+  display: flex;
+  flex-direction: column; /* Stack content vertically */
+  align-items: center;    /* Center content horizontally */
+  justify-content: center; /* Center content vertically */
+  margin: 0 auto;          /* Ensure the container has auto left and right margins */
+  padding: 20px;
+  width: 80%;              /* Adjust width as needed */
+}
+
+/* Ensure each block inside the resume has some margin for spacing */
+.resume-block {
+  width: 100%;
+  max-width: 800px; /* Max width for each block to avoid stretching too wide */
+  margin-bottom: 20px; /* Space between blocks */
+}
+
+/* Style h4 to center it */
+.resume-block h4 {
+  text-align: center;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+/* Style the list items */
+ul {
+  list-style-type: none; /* Remove default bullet points */
+  padding: 0;
+  margin: 0;
+  line-height: 1.8;
+}
+
+ul li {
+  font-family: 'GillSans', sans-serif;
+  font-weight: 300;
+  text-align: center; /* Align list items to the left */
+  margin: 5px 0;
+  line-height: 1.4;
+}
+/*  */
+/*  */
+/*  */
+.trailer-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.trailer-image {
+  display: flex;
+  flex-direction: column; /* Stack images vertically */
+  justify-content: center;
+  align-items: center;
+  gap: 20px; /* Adjust space between images */
+}
+
+.trailer-image img {
+  width: 600px; /* Increase image width */
+  height: 400px; /* Increase image height */
+  object-fit: cover; /* Ensure images maintain their aspect ratio */
+}
+
+.trailer-text {
+  margin-top: 20px;
+  padding: 0 300px; /* Add left and right padding to the text */
+}
+
+.trailer-text h4 {
+  font-size: 24px;
+  font-weight: 900;
+  font-family: 'GillSans', sans-serif;
+  color: black;
+  line-height: 1.8;
+}
+
+.trailer-text p {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  color: rgb(125, 125, 125);
+  font-size: 20px;
+  line-height: 1.4;
+  text-align: center; /* Center-align text */
+}
+
